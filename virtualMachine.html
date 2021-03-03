@@ -10,105 +10,148 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
-        <div class="card__virtual-machine">
-            <div class="virtual-machine">
-                <div class="virtual-machine__desc">
-                    <div class="virtual-machine__info">
-                        Virtual Machine
+    <div class="filters">
+    <div class="filters__head">
+        <div class="head__title">
+            <h2>Virtual Machine</h2>
+        </div>
+    </div>
+    <div class="filters__list">
+        <ul class="list__items">
+            <li class="list__item">
+                <div class="item__text">
+                    <div class="text__header">
+                        New VM
                     </div>
-                    <div class="virtual-machine__title">
-                        Test-VM
-                    </div>
-                    <div class="virtual-machine__subtitle">
-                        Microsoft Windows Server 20 Lorem ipsum dolor.
-                    </div>
-                    <div class="virtual-machine__status">
-                        Powered on
+                    <div class="text__subtext">
+                        Look in
                     </div>
                 </div>
-                <div class="virtual-machine__icon">
-                    <i class="fa fa-desktop fa-5x"></i>
+            </li>
+            <li class="list__item">
+                <div class="item__select">
+                    <select>
+                        <option>All VMs</option>
+                        <option>First VMs 2</option>
+                    </select>
+                </div>
+            </li>
+            <li class="list__item">
+                <ul class="item__controls">
+                    <li class="control__item">
+                        <i class="fa fa-filter" aria-hidden="true"></i>
+                    </li>
+                    <li class="control__item">
+                        <i class="fa fa-exchange" aria-hidden="true"></i>
+                    </li>
+                    <li class="control__item">
+                        <i class="fa fa-repeat" aria-hidden="true"></i>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+    <div class="card_list">
+        <div class="card">
+            <div class="card__virtual-machine">
+                <div class="virtual-machine">
+                    <div class="virtual-machine__desc">
+                        <div class="virtual-machine__info">
+                            Virtual Machine
+                        </div>
+                        <div class="virtual-machine__title">
+                            Test-VM
+                        </div>
+                        <div class="virtual-machine__subtitle">
+                            Microsoft Windows Server 20 Lorem ipsum dolor.
+                        </div>
+                        <div class="virtual-machine__status">
+                            Powered on
+                        </div>
+                    </div>
+                    <div class="virtual-machine__icon">
+                        <i class="fa fa-desktop fa-5x"></i>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card__desc">
-            <ul class="desc">
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-microchip fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                CPUs
+            <div class="card__desc">
+                <ul class="desc">
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-microchip fa-2x" aria-hidden="true"></i>
                             </div>
-                            <div class="item-info__text">
-                                1
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    CPUs
+                                </div>
+                                <div class="item-info__text">
+                                    1
+                                </div>
                             </div>
-                        </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                Lease
-                            </div>
-                            <div class="item-info__text">
-                                Never Expires
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                Memory
-                            </div>
-                            <div class="item-info__text">
-                                1024 MB
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Lease
+                                </div>
+                                <div class="item-info__text">
+                                    Never Expires
+                                </div>
                             </div>
                         </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                VMware Tools
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
                             </div>
-                            <div class="item-info__text">
-                                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Memory
+                                </div>
+                                <div class="item-info__text">
+                                    1024 MB
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                Networks
-                            </div>
-                            <div class="item-info__text">
-                                -
-                            </div>
-                        </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                Snapshot
-                            </div>
-                            <div class="item-info__text">
-                                -
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    VMware Tools
+                                </div>
+                                <div class="item-info__text">
+                                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="card__control">
-            <div class="control">
-                <div class="control__actions">
-                    <ul class="select">
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Networks
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Snapshot
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="card__control">
+                <div class="control">
+                    <div class="control__actions">
+                        <ul class="actions__select">
                             <li>
                                 <input class="select_close" type="radio" name="awesomeness" id="awesomeness-close" value=""/>
                                 <span class="select_label select_label-placeholder">Actions</span>
@@ -143,740 +186,1319 @@
                                 <label class="select_expandLabel" for="awesomeness-opener"></label>
                             </li>
                         </ul>
+                    </div>
+                    <div class="control__details">
+                        <div class="button_container">
+                            <button class="button_container__btn">
+                                <span>Details</span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="control__details">
-                    <div class="button_container">
-                        <button class="button_container__btn">
-                            <span>Details</span>
-                        </button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__virtual-machine">
+                <div class="virtual-machine">
+                    <div class="virtual-machine__desc">
+                        <div class="virtual-machine__info">
+                            Virtual Machine
+                        </div>
+                        <div class="virtual-machine__title">
+                            Test-VM
+                        </div>
+                        <div class="virtual-machine__subtitle">
+                            Microsoft Windows Server 20 Lorem ipsum dolor.
+                        </div>
+                        <div class="virtual-machine__status">
+                            Powered on
+                        </div>
+                    </div>
+                    <div class="virtual-machine__icon">
+                        <i class="fa fa-desktop fa-5x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card__desc">
+                <ul class="desc">
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-microchip fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    CPUs
+                                </div>
+                                <div class="item-info__text">
+                                    1
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Lease
+                                </div>
+                                <div class="item-info__text">
+                                    Never Expires
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Memory
+                                </div>
+                                <div class="item-info__text">
+                                    1024 MB
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    VMware Tools
+                                </div>
+                                <div class="item-info__text">
+                                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Networks
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Snapshot
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="card__control">
+                <div class="control">
+                    <div class="control__actions">
+                        <ul class="actions__select">
+                            <li>
+                                <input class="select_close" type="radio" name="awesomeness" id="awesomeness-close" value=""/>
+                                <span class="select_label select_label-placeholder">Actions</span>
+                            </li>
+
+                            <li class="select_items">
+                                <input class="select_expand" type="radio" name="awesomeness" id="awesomeness-opener"/>
+                                <label class="select_closeLabel" for="awesomeness-close"></label>
+
+                                <ul class="select_options">
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-ridiculous"/>
+                                        <label class="select_label" for="awesomeness-ridiculous">Filters 1</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-reasonable"/>
+                                        <label class="select_label" for="awesomeness-reasonable">Filters 2</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-lacking"/>
+                                        <label class="select_label" for="awesomeness-lacking">Filters 3</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-awesomeless"/>
+                                        <label class="select_label" for="awesomeness-awesomeless">Filters 4</label>
+                                    </li>
+                                </ul>
+
+                                <label class="select_expandLabel" for="awesomeness-opener"></label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="control__details">
+                        <div class="button_container">
+                            <button class="button_container__btn">
+                                <span>Details</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__virtual-machine">
+                <div class="virtual-machine">
+                    <div class="virtual-machine__desc">
+                        <div class="virtual-machine__info">
+                            Virtual Machine
+                        </div>
+                        <div class="virtual-machine__title">
+                            Test-VM
+                        </div>
+                        <div class="virtual-machine__subtitle">
+                            Microsoft Windows Server 20 Lorem ipsum dolor.
+                        </div>
+                        <div class="virtual-machine__status">
+                            Powered on
+                        </div>
+                    </div>
+                    <div class="virtual-machine__icon">
+                        <i class="fa fa-desktop fa-5x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card__desc">
+                <ul class="desc">
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-microchip fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    CPUs
+                                </div>
+                                <div class="item-info__text">
+                                    1
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Lease
+                                </div>
+                                <div class="item-info__text">
+                                    Never Expires
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Memory
+                                </div>
+                                <div class="item-info__text">
+                                    1024 MB
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    VMware Tools
+                                </div>
+                                <div class="item-info__text">
+                                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Networks
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Snapshot
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="card__control">
+                <div class="control">
+                    <div class="control__actions">
+                        <ul class="actions__select">
+                            <li>
+                                <input class="select_close" type="radio" name="awesomeness" id="awesomeness-close" value=""/>
+                                <span class="select_label select_label-placeholder">Actions</span>
+                            </li>
+
+                            <li class="select_items">
+                                <input class="select_expand" type="radio" name="awesomeness" id="awesomeness-opener"/>
+                                <label class="select_closeLabel" for="awesomeness-close"></label>
+
+                                <ul class="select_options">
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-ridiculous"/>
+                                        <label class="select_label" for="awesomeness-ridiculous">Filters 1</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-reasonable"/>
+                                        <label class="select_label" for="awesomeness-reasonable">Filters 2</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-lacking"/>
+                                        <label class="select_label" for="awesomeness-lacking">Filters 3</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-awesomeless"/>
+                                        <label class="select_label" for="awesomeness-awesomeless">Filters 4</label>
+                                    </li>
+                                </ul>
+
+                                <label class="select_expandLabel" for="awesomeness-opener"></label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="control__details">
+                        <div class="button_container">
+                            <button class="button_container__btn">
+                                <span>Details</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__virtual-machine">
+                <div class="virtual-machine">
+                    <div class="virtual-machine__desc">
+                        <div class="virtual-machine__info">
+                            Virtual Machine
+                        </div>
+                        <div class="virtual-machine__title">
+                            Test-VM
+                        </div>
+                        <div class="virtual-machine__subtitle">
+                            Microsoft Windows Server 20 Lorem ipsum dolor.
+                        </div>
+                        <div class="virtual-machine__status">
+                            Powered on
+                        </div>
+                    </div>
+                    <div class="virtual-machine__icon">
+                        <i class="fa fa-desktop fa-5x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card__desc">
+                <ul class="desc">
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-microchip fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    CPUs
+                                </div>
+                                <div class="item-info__text">
+                                    1
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Lease
+                                </div>
+                                <div class="item-info__text">
+                                    Never Expires
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Memory
+                                </div>
+                                <div class="item-info__text">
+                                    1024 MB
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    VMware Tools
+                                </div>
+                                <div class="item-info__text">
+                                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Networks
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Snapshot
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="card__control">
+                <div class="control">
+                    <div class="control__actions">
+                        <ul class="actions__select">
+                            <li>
+                                <input class="select_close" type="radio" name="awesomeness" id="awesomeness-close" value=""/>
+                                <span class="select_label select_label-placeholder">Actions</span>
+                            </li>
+
+                            <li class="select_items">
+                                <input class="select_expand" type="radio" name="awesomeness" id="awesomeness-opener"/>
+                                <label class="select_closeLabel" for="awesomeness-close"></label>
+
+                                <ul class="select_options">
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-ridiculous"/>
+                                        <label class="select_label" for="awesomeness-ridiculous">Filters 1</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-reasonable"/>
+                                        <label class="select_label" for="awesomeness-reasonable">Filters 2</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-lacking"/>
+                                        <label class="select_label" for="awesomeness-lacking">Filters 3</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-awesomeless"/>
+                                        <label class="select_label" for="awesomeness-awesomeless">Filters 4</label>
+                                    </li>
+                                </ul>
+
+                                <label class="select_expandLabel" for="awesomeness-opener"></label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="control__details">
+                        <div class="button_container">
+                            <button class="button_container__btn">
+                                <span>Details</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__virtual-machine">
+                <div class="virtual-machine">
+                    <div class="virtual-machine__desc">
+                        <div class="virtual-machine__info">
+                            Virtual Machine
+                        </div>
+                        <div class="virtual-machine__title">
+                            Test-VM
+                        </div>
+                        <div class="virtual-machine__subtitle">
+                            Microsoft Windows Server 20 Lorem ipsum dolor.
+                        </div>
+                        <div class="virtual-machine__status">
+                            Powered on
+                        </div>
+                    </div>
+                    <div class="virtual-machine__icon">
+                        <i class="fa fa-desktop fa-5x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card__desc">
+                <ul class="desc">
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-microchip fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    CPUs
+                                </div>
+                                <div class="item-info__text">
+                                    1
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Lease
+                                </div>
+                                <div class="item-info__text">
+                                    Never Expires
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Memory
+                                </div>
+                                <div class="item-info__text">
+                                    1024 MB
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    VMware Tools
+                                </div>
+                                <div class="item-info__text">
+                                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Networks
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Snapshot
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="card__control">
+                <div class="control">
+                    <div class="control__actions">
+                        <ul class="actions__select">
+                            <li>
+                                <input class="select_close" type="radio" name="awesomeness" id="awesomeness-close" value=""/>
+                                <span class="select_label select_label-placeholder">Actions</span>
+                            </li>
+
+                            <li class="select_items">
+                                <input class="select_expand" type="radio" name="awesomeness" id="awesomeness-opener"/>
+                                <label class="select_closeLabel" for="awesomeness-close"></label>
+
+                                <ul class="select_options">
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-ridiculous"/>
+                                        <label class="select_label" for="awesomeness-ridiculous">Filters 1</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-reasonable"/>
+                                        <label class="select_label" for="awesomeness-reasonable">Filters 2</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-lacking"/>
+                                        <label class="select_label" for="awesomeness-lacking">Filters 3</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-awesomeless"/>
+                                        <label class="select_label" for="awesomeness-awesomeless">Filters 4</label>
+                                    </li>
+                                </ul>
+
+                                <label class="select_expandLabel" for="awesomeness-opener"></label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="control__details">
+                        <div class="button_container">
+                            <button class="button_container__btn">
+                                <span>Details</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__virtual-machine">
+                <div class="virtual-machine">
+                    <div class="virtual-machine__desc">
+                        <div class="virtual-machine__info">
+                            Virtual Machine
+                        </div>
+                        <div class="virtual-machine__title">
+                            Test-VM
+                        </div>
+                        <div class="virtual-machine__subtitle">
+                            Microsoft Windows Server 20 Lorem ipsum dolor.
+                        </div>
+                        <div class="virtual-machine__status">
+                            Powered on
+                        </div>
+                    </div>
+                    <div class="virtual-machine__icon">
+                        <i class="fa fa-desktop fa-5x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card__desc">
+                <ul class="desc">
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-microchip fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    CPUs
+                                </div>
+                                <div class="item-info__text">
+                                    1
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Lease
+                                </div>
+                                <div class="item-info__text">
+                                    Never Expires
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Memory
+                                </div>
+                                <div class="item-info__text">
+                                    1024 MB
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    VMware Tools
+                                </div>
+                                <div class="item-info__text">
+                                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Networks
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Snapshot
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="card__control">
+                <div class="control">
+                    <div class="control__actions">
+                        <ul class="actions__select">
+                            <li>
+                                <input class="select_close" type="radio" name="awesomeness" id="awesomeness-close" value=""/>
+                                <span class="select_label select_label-placeholder">Actions</span>
+                            </li>
+
+                            <li class="select_items">
+                                <input class="select_expand" type="radio" name="awesomeness" id="awesomeness-opener"/>
+                                <label class="select_closeLabel" for="awesomeness-close"></label>
+
+                                <ul class="select_options">
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-ridiculous"/>
+                                        <label class="select_label" for="awesomeness-ridiculous">Filters 1</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-reasonable"/>
+                                        <label class="select_label" for="awesomeness-reasonable">Filters 2</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-lacking"/>
+                                        <label class="select_label" for="awesomeness-lacking">Filters 3</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-awesomeless"/>
+                                        <label class="select_label" for="awesomeness-awesomeless">Filters 4</label>
+                                    </li>
+                                </ul>
+
+                                <label class="select_expandLabel" for="awesomeness-opener"></label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="control__details">
+                        <div class="button_container">
+                            <button class="button_container__btn">
+                                <span>Details</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__virtual-machine">
+                <div class="virtual-machine">
+                    <div class="virtual-machine__desc">
+                        <div class="virtual-machine__info">
+                            Virtual Machine
+                        </div>
+                        <div class="virtual-machine__title">
+                            Test-VM
+                        </div>
+                        <div class="virtual-machine__subtitle">
+                            Microsoft Windows Server 20 Lorem ipsum dolor.
+                        </div>
+                        <div class="virtual-machine__status">
+                            Powered on
+                        </div>
+                    </div>
+                    <div class="virtual-machine__icon">
+                        <i class="fa fa-desktop fa-5x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card__desc">
+                <ul class="desc">
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-microchip fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    CPUs
+                                </div>
+                                <div class="item-info__text">
+                                    1
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Lease
+                                </div>
+                                <div class="item-info__text">
+                                    Never Expires
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Memory
+                                </div>
+                                <div class="item-info__text">
+                                    1024 MB
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    VMware Tools
+                                </div>
+                                <div class="item-info__text">
+                                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Networks
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Snapshot
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="card__control">
+                <div class="control">
+                    <div class="control__actions">
+                        <ul class="actions__select">
+                            <li>
+                                <input class="select_close" type="radio" name="awesomeness" id="awesomeness-close" value=""/>
+                                <span class="select_label select_label-placeholder">Actions</span>
+                            </li>
+
+                            <li class="select_items">
+                                <input class="select_expand" type="radio" name="awesomeness" id="awesomeness-opener"/>
+                                <label class="select_closeLabel" for="awesomeness-close"></label>
+
+                                <ul class="select_options">
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-ridiculous"/>
+                                        <label class="select_label" for="awesomeness-ridiculous">Filters 1</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-reasonable"/>
+                                        <label class="select_label" for="awesomeness-reasonable">Filters 2</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-lacking"/>
+                                        <label class="select_label" for="awesomeness-lacking">Filters 3</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-awesomeless"/>
+                                        <label class="select_label" for="awesomeness-awesomeless">Filters 4</label>
+                                    </li>
+                                </ul>
+
+                                <label class="select_expandLabel" for="awesomeness-opener"></label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="control__details">
+                        <div class="button_container">
+                            <button class="button_container__btn">
+                                <span>Details</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__virtual-machine">
+                <div class="virtual-machine">
+                    <div class="virtual-machine__desc">
+                        <div class="virtual-machine__info">
+                            Virtual Machine
+                        </div>
+                        <div class="virtual-machine__title">
+                            Test-VM
+                        </div>
+                        <div class="virtual-machine__subtitle">
+                            Microsoft Windows Server 20 Lorem ipsum dolor.
+                        </div>
+                        <div class="virtual-machine__status">
+                            Powered on
+                        </div>
+                    </div>
+                    <div class="virtual-machine__icon">
+                        <i class="fa fa-desktop fa-5x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card__desc">
+                <ul class="desc">
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-microchip fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    CPUs
+                                </div>
+                                <div class="item-info__text">
+                                    1
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Lease
+                                </div>
+                                <div class="item-info__text">
+                                    Never Expires
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Memory
+                                </div>
+                                <div class="item-info__text">
+                                    1024 MB
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    VMware Tools
+                                </div>
+                                <div class="item-info__text">
+                                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Networks
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Snapshot
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="card__control">
+                <div class="control">
+                    <div class="control__actions">
+                        <ul class="actions__select">
+                            <li>
+                                <input class="select_close" type="radio" name="awesomeness" id="awesomeness-close" value=""/>
+                                <span class="select_label select_label-placeholder">Actions</span>
+                            </li>
+
+                            <li class="select_items">
+                                <input class="select_expand" type="radio" name="awesomeness" id="awesomeness-opener"/>
+                                <label class="select_closeLabel" for="awesomeness-close"></label>
+
+                                <ul class="select_options">
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-ridiculous"/>
+                                        <label class="select_label" for="awesomeness-ridiculous">Filters 1</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-reasonable"/>
+                                        <label class="select_label" for="awesomeness-reasonable">Filters 2</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-lacking"/>
+                                        <label class="select_label" for="awesomeness-lacking">Filters 3</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-awesomeless"/>
+                                        <label class="select_label" for="awesomeness-awesomeless">Filters 4</label>
+                                    </li>
+                                </ul>
+
+                                <label class="select_expandLabel" for="awesomeness-opener"></label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="control__details">
+                        <div class="button_container">
+                            <button class="button_container__btn">
+                                <span>Details</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__virtual-machine">
+                <div class="virtual-machine">
+                    <div class="virtual-machine__desc">
+                        <div class="virtual-machine__info">
+                            Virtual Machine
+                        </div>
+                        <div class="virtual-machine__title">
+                            Test-VM
+                        </div>
+                        <div class="virtual-machine__subtitle">
+                            Microsoft Windows Server 20 Lorem ipsum dolor.
+                        </div>
+                        <div class="virtual-machine__status">
+                            Powered on
+                        </div>
+                    </div>
+                    <div class="virtual-machine__icon">
+                        <i class="fa fa-desktop fa-5x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card__desc">
+                <ul class="desc">
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-microchip fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    CPUs
+                                </div>
+                                <div class="item-info__text">
+                                    1
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Lease
+                                </div>
+                                <div class="item-info__text">
+                                    Never Expires
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Memory
+                                </div>
+                                <div class="item-info__text">
+                                    1024 MB
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    VMware Tools
+                                </div>
+                                <div class="item-info__text">
+                                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Networks
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Snapshot
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="card__control">
+                <div class="control">
+                    <div class="control__actions">
+                        <ul class="actions__select">
+                            <li>
+                                <input class="select_close" type="radio" name="awesomeness" id="awesomeness-close" value=""/>
+                                <span class="select_label select_label-placeholder">Actions</span>
+                            </li>
+
+                            <li class="select_items">
+                                <input class="select_expand" type="radio" name="awesomeness" id="awesomeness-opener"/>
+                                <label class="select_closeLabel" for="awesomeness-close"></label>
+
+                                <ul class="select_options">
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-ridiculous"/>
+                                        <label class="select_label" for="awesomeness-ridiculous">Filters 1</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-reasonable"/>
+                                        <label class="select_label" for="awesomeness-reasonable">Filters 2</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-lacking"/>
+                                        <label class="select_label" for="awesomeness-lacking">Filters 3</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-awesomeless"/>
+                                        <label class="select_label" for="awesomeness-awesomeless">Filters 4</label>
+                                    </li>
+                                </ul>
+
+                                <label class="select_expandLabel" for="awesomeness-opener"></label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="control__details">
+                        <div class="button_container">
+                            <button class="button_container__btn">
+                                <span>Details</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__virtual-machine">
+                <div class="virtual-machine">
+                    <div class="virtual-machine__desc">
+                        <div class="virtual-machine__info">
+                            Virtual Machine
+                        </div>
+                        <div class="virtual-machine__title">
+                            Test-VM
+                        </div>
+                        <div class="virtual-machine__subtitle">
+                            Microsoft Windows Server 20 Lorem ipsum dolor.
+                        </div>
+                        <div class="virtual-machine__status">
+                            Powered on
+                        </div>
+                    </div>
+                    <div class="virtual-machine__icon">
+                        <i class="fa fa-desktop fa-5x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card__desc">
+                <ul class="desc">
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-microchip fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    CPUs
+                                </div>
+                                <div class="item-info__text">
+                                    1
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Lease
+                                </div>
+                                <div class="item-info__text">
+                                    Never Expires
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Memory
+                                </div>
+                                <div class="item-info__text">
+                                    1024 MB
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    VMware Tools
+                                </div>
+                                <div class="item-info__text">
+                                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desc__item">
+                        <div class="item-info">
+                            <div class="item-info__icon">
+                                <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-info__specification">
+                                <div class="item-info__subtitle">
+                                    Networks
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                            <div class="item-info__detail">
+                                <div class="item-info__subtitle">
+                                    Snapshot
+                                </div>
+                                <div class="item-info__text">
+                                    -
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="card__control">
+                <div class="control">
+                    <div class="control__actions">
+                        <ul class="actions__select">
+                            <li>
+                                <input class="select_close" type="radio" name="awesomeness" id="awesomeness-close" value=""/>
+                                <span class="select_label select_label-placeholder">Actions</span>
+                            </li>
+
+                            <li class="select_items">
+                                <input class="select_expand" type="radio" name="awesomeness" id="awesomeness-opener"/>
+                                <label class="select_closeLabel" for="awesomeness-close"></label>
+
+                                <ul class="select_options">
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-ridiculous"/>
+                                        <label class="select_label" for="awesomeness-ridiculous">Filters 1</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-reasonable"/>
+                                        <label class="select_label" for="awesomeness-reasonable">Filters 2</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-lacking"/>
+                                        <label class="select_label" for="awesomeness-lacking">Filters 3</label>
+                                    </li>
+
+                                    <li class="select_option">
+                                        <input class="select_input" type="radio" name="awesomeness" id="awesomeness-awesomeless"/>
+                                        <label class="select_label" for="awesomeness-awesomeless">Filters 4</label>
+                                    </li>
+                                </ul>
+
+                                <label class="select_expandLabel" for="awesomeness-opener"></label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="control__details">
+                        <div class="button_container">
+                            <button class="button_container__btn">
+                                <span>Details</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="card">
-        <div class="card__virtual-machine">
-            <div class="virtual-machine">
-                <div class="virtual-machine__desc">
-                    <div class="virtual-machine__info">
-                        Virtual Machine
-                    </div>
-                    <div class="virtual-machine__title">
-                        Test-VM
-                    </div>
-                    <div class="virtual-machine__subtitle">
-                        Microsoft Windows Server 20 Lorem ipsum dolor.
-                    </div>
-                    <div class="virtual-machine__status">
-                        Powered on
-                    </div>
-                </div>
-                <div class="virtual-machine__icon">
-                    <i class="fa fa-desktop fa-5x"></i>
-                </div>
-            </div>
-        </div>
-        <div class="card__desc">
-            <ul class="desc">
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-microchip fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                CPUs
-                            </div>
-                            <div class="item-info__text">
-                                1
-                            </div>
-                        </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                Lease
-                            </div>
-                            <div class="item-info__text">
-                                Never Expires
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                Memory
-                            </div>
-                            <div class="item-info__text">
-                                1024 MB
-                            </div>
-                        </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                VMware Tools
-                            </div>
-                            <div class="item-info__text">
-                                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                Networks
-                            </div>
-                            <div class="item-info__text">
-                                -
-                            </div>
-                        </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                Snapshot
-                            </div>
-                            <div class="item-info__text">
-                                -
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="card__control">
-            <div class="control">
-                <div class="control__actions">
-                    <ul class="select">
-                        <li>
-                            <input class="select_close" type="radio" name="awesomeness" id="awesomeness-close" value=""/>
-                            <span class="select_label select_label-placeholder">Actions</span>
-                        </li>
-
-                        <li class="select_items">
-                            <input class="select_expand" type="radio" name="awesomeness" id="awesomeness-opener"/>
-                            <label class="select_closeLabel" for="awesomeness-close"></label>
-
-                            <ul class="select_options">
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-ridiculous"/>
-                                    <label class="select_label" for="awesomeness-ridiculous">Filters 1</label>
-                                </li>
-
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-reasonable"/>
-                                    <label class="select_label" for="awesomeness-reasonable">Filters 2</label>
-                                </li>
-
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-lacking"/>
-                                    <label class="select_label" for="awesomeness-lacking">Filters 3</label>
-                                </li>
-
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-awesomeless"/>
-                                    <label class="select_label" for="awesomeness-awesomeless">Filters 4</label>
-                                </li>
-                            </ul>
-
-                            <label class="select_expandLabel" for="awesomeness-opener"></label>
-                        </li>
-                    </ul>
-                </div>
-                <div class="control__details">
-                    <div class="button_container">
-                        <button class="button_container__btn">
-                            <span>Details</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card__virtual-machine">
-            <div class="virtual-machine">
-                <div class="virtual-machine__desc">
-                    <div class="virtual-machine__info">
-                        Virtual Machine
-                    </div>
-                    <div class="virtual-machine__title">
-                        Test-VM
-                    </div>
-                    <div class="virtual-machine__subtitle">
-                        Microsoft Windows Server 20 Lorem ipsum dolor.
-                    </div>
-                    <div class="virtual-machine__status">
-                        Powered on
-                    </div>
-                </div>
-                <div class="virtual-machine__icon">
-                    <i class="fa fa-desktop fa-5x"></i>
-                </div>
-            </div>
-        </div>
-        <div class="card__desc">
-            <ul class="desc">
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-microchip fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                CPUs
-                            </div>
-                            <div class="item-info__text">
-                                1
-                            </div>
-                        </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                Lease
-                            </div>
-                            <div class="item-info__text">
-                                Never Expires
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                Memory
-                            </div>
-                            <div class="item-info__text">
-                                1024 MB
-                            </div>
-                        </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                VMware Tools
-                            </div>
-                            <div class="item-info__text">
-                                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                Networks
-                            </div>
-                            <div class="item-info__text">
-                                -
-                            </div>
-                        </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                Snapshot
-                            </div>
-                            <div class="item-info__text">
-                                -
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="card__control">
-            <div class="control">
-                <div class="control__actions">
-                    <ul class="select">
-                        <li>
-                            <input class="select_close" type="radio" name="awesomeness" id="awesomeness-close" value=""/>
-                            <span class="select_label select_label-placeholder">Actions</span>
-                        </li>
-
-                        <li class="select_items">
-                            <input class="select_expand" type="radio" name="awesomeness" id="awesomeness-opener"/>
-                            <label class="select_closeLabel" for="awesomeness-close"></label>
-
-                            <ul class="select_options">
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-ridiculous"/>
-                                    <label class="select_label" for="awesomeness-ridiculous">Filters 1</label>
-                                </li>
-
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-reasonable"/>
-                                    <label class="select_label" for="awesomeness-reasonable">Filters 2</label>
-                                </li>
-
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-lacking"/>
-                                    <label class="select_label" for="awesomeness-lacking">Filters 3</label>
-                                </li>
-
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-awesomeless"/>
-                                    <label class="select_label" for="awesomeness-awesomeless">Filters 4</label>
-                                </li>
-                            </ul>
-
-                            <label class="select_expandLabel" for="awesomeness-opener"></label>
-                        </li>
-                    </ul>
-                </div>
-                <div class="control__details">
-                    <div class="button_container">
-                        <button class="button_container__btn">
-                            <span>Details</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card__virtual-machine">
-            <div class="virtual-machine">
-                <div class="virtual-machine__desc">
-                    <div class="virtual-machine__info">
-                        Virtual Machine
-                    </div>
-                    <div class="virtual-machine__title">
-                        Test-VM
-                    </div>
-                    <div class="virtual-machine__subtitle">
-                        Microsoft Windows Server 20 Lorem ipsum dolor.
-                    </div>
-                    <div class="virtual-machine__status">
-                        Powered on
-                    </div>
-                </div>
-                <div class="virtual-machine__icon">
-                    <i class="fa fa-desktop fa-5x"></i>
-                </div>
-            </div>
-        </div>
-        <div class="card__desc">
-            <ul class="desc">
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-microchip fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                CPUs
-                            </div>
-                            <div class="item-info__text">
-                                1
-                            </div>
-                        </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                Lease
-                            </div>
-                            <div class="item-info__text">
-                                Never Expires
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                Memory
-                            </div>
-                            <div class="item-info__text">
-                                1024 MB
-                            </div>
-                        </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                VMware Tools
-                            </div>
-                            <div class="item-info__text">
-                                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                Networks
-                            </div>
-                            <div class="item-info__text">
-                                -
-                            </div>
-                        </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                Snapshot
-                            </div>
-                            <div class="item-info__text">
-                                -
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="card__control">
-            <div class="control">
-                <div class="control__actions">
-                    <ul class="select">
-                        <li>
-                            <input class="select_close" type="radio" name="awesomeness" id="awesomeness-close" value=""/>
-                            <span class="select_label select_label-placeholder">Actions</span>
-                        </li>
-
-                        <li class="select_items">
-                            <input class="select_expand" type="radio" name="awesomeness" id="awesomeness-opener"/>
-                            <label class="select_closeLabel" for="awesomeness-close"></label>
-
-                            <ul class="select_options">
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-ridiculous"/>
-                                    <label class="select_label" for="awesomeness-ridiculous">Filters 1</label>
-                                </li>
-
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-reasonable"/>
-                                    <label class="select_label" for="awesomeness-reasonable">Filters 2</label>
-                                </li>
-
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-lacking"/>
-                                    <label class="select_label" for="awesomeness-lacking">Filters 3</label>
-                                </li>
-
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-awesomeless"/>
-                                    <label class="select_label" for="awesomeness-awesomeless">Filters 4</label>
-                                </li>
-                            </ul>
-
-                            <label class="select_expandLabel" for="awesomeness-opener"></label>
-                        </li>
-                    </ul>
-                </div>
-                <div class="control__details">
-                    <div class="button_container">
-                        <button class="button_container__btn">
-                            <span>Details</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card__virtual-machine">
-            <div class="virtual-machine">
-                <div class="virtual-machine__desc">
-                    <div class="virtual-machine__info">
-                        Virtual Machine
-                    </div>
-                    <div class="virtual-machine__title">
-                        Test-VM
-                    </div>
-                    <div class="virtual-machine__subtitle">
-                        Microsoft Windows Server 20 Lorem ipsum dolor.
-                    </div>
-                    <div class="virtual-machine__status">
-                        Powered on
-                    </div>
-                </div>
-                <div class="virtual-machine__icon">
-                    <i class="fa fa-desktop fa-5x"></i>
-                </div>
-            </div>
-        </div>
-        <div class="card__desc">
-            <ul class="desc">
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-microchip fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                CPUs
-                            </div>
-                            <div class="item-info__text">
-                                1
-                            </div>
-                        </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                Lease
-                            </div>
-                            <div class="item-info__text">
-                                Never Expires
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                Memory
-                            </div>
-                            <div class="item-info__text">
-                                1024 MB
-                            </div>
-                        </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                VMware Tools
-                            </div>
-                            <div class="item-info__text">
-                                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                Networks
-                            </div>
-                            <div class="item-info__text">
-                                -
-                            </div>
-                        </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                Snapshot
-                            </div>
-                            <div class="item-info__text">
-                                -
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="card__control">
-            <div class="control">
-                <div class="control__actions">
-                    <ul class="select">
-                        <li>
-                            <input class="select_close" type="radio" name="awesomeness" id="awesomeness-close" value=""/>
-                            <span class="select_label select_label-placeholder">Actions</span>
-                        </li>
-
-                        <li class="select_items">
-                            <input class="select_expand" type="radio" name="awesomeness" id="awesomeness-opener"/>
-                            <label class="select_closeLabel" for="awesomeness-close"></label>
-
-                            <ul class="select_options">
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-ridiculous"/>
-                                    <label class="select_label" for="awesomeness-ridiculous">Filters 1</label>
-                                </li>
-
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-reasonable"/>
-                                    <label class="select_label" for="awesomeness-reasonable">Filters 2</label>
-                                </li>
-
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-lacking"/>
-                                    <label class="select_label" for="awesomeness-lacking">Filters 3</label>
-                                </li>
-
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-awesomeless"/>
-                                    <label class="select_label" for="awesomeness-awesomeless">Filters 4</label>
-                                </li>
-                            </ul>
-
-                            <label class="select_expandLabel" for="awesomeness-opener"></label>
-                        </li>
-                    </ul>
-                </div>
-                <div class="control__details">
-                    <div class="button_container">
-                        <button class="button_container__btn">
-                            <span>Details</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card__virtual-machine">
-            <div class="virtual-machine">
-                <div class="virtual-machine__desc">
-                    <div class="virtual-machine__info">
-                        Virtual Machine
-                    </div>
-                    <div class="virtual-machine__title">
-                        Test-VM
-                    </div>
-                    <div class="virtual-machine__subtitle">
-                        Microsoft Windows Server 20 Lorem ipsum dolor.
-                    </div>
-                    <div class="virtual-machine__status">
-                        Powered on
-                    </div>
-                </div>
-                <div class="virtual-machine__icon">
-                    <i class="fa fa-desktop fa-5x"></i>
-                </div>
-            </div>
-        </div>
-        <div class="card__desc">
-            <ul class="desc">
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-microchip fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                CPUs
-                            </div>
-                            <div class="item-info__text">
-                                1
-                            </div>
-                        </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                Lease
-                            </div>
-                            <div class="item-info__text">
-                                Never Expires
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                Memory
-                            </div>
-                            <div class="item-info__text">
-                                1024 MB
-                            </div>
-                        </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                VMware Tools
-                            </div>
-                            <div class="item-info__text">
-                                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="desc__item">
-                    <div class="item-info">
-                        <div class="item-info__icon">
-                            <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <div class="item-info__specification">
-                            <div class="item-info__subtitle">
-                                Networks
-                            </div>
-                            <div class="item-info__text">
-                                -
-                            </div>
-                        </div>
-                        <div class="item-info__detail">
-                            <div class="item-info__subtitle">
-                                Snapshot
-                            </div>
-                            <div class="item-info__text">
-                                -
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="card__control">
-            <div class="control">
-                <div class="control__actions">
-                    <ul class="select">
-                        <li>
-                            <input class="select_close" type="radio" name="awesomeness" id="awesomeness-close" value=""/>
-                            <span class="select_label select_label-placeholder">Actions</span>
-                        </li>
-
-                        <li class="select_items">
-                            <input class="select_expand" type="radio" name="awesomeness" id="awesomeness-opener"/>
-                            <label class="select_closeLabel" for="awesomeness-close"></label>
-
-                            <ul class="select_options">
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-ridiculous"/>
-                                    <label class="select_label" for="awesomeness-ridiculous">Filters 1</label>
-                                </li>
-
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-reasonable"/>
-                                    <label class="select_label" for="awesomeness-reasonable">Filters 2</label>
-                                </li>
-
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-lacking"/>
-                                    <label class="select_label" for="awesomeness-lacking">Filters 3</label>
-                                </li>
-
-                                <li class="select_option">
-                                    <input class="select_input" type="radio" name="awesomeness" id="awesomeness-awesomeless"/>
-                                    <label class="select_label" for="awesomeness-awesomeless">Filters 4</label>
-                                </li>
-                            </ul>
-
-                            <label class="select_expandLabel" for="awesomeness-opener"></label>
-                        </li>
-                    </ul>
-                </div>
-                <div class="control__details">
-                    <div class="button_container">
-                        <button class="button_container__btn">
-                            <span>Details</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
+<script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script src="selectScript.js"></script>
 </body>
 </html>
 
