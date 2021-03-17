@@ -317,5 +317,13 @@ const app = new Vue({
                 return this.machines
             }
         }
+    },
+    updated() {
+        console.log(321)
+    },
+    watch: {
+        filteredMachines(){
+            console.log(123)
+    }
     }
 });
