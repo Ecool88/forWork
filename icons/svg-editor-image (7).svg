@@ -1,23 +1,14 @@
 <svg width="49" height="51" xmlns="http://www.w3.org/2000/svg">
- <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
-
  <g>
-  <title>background</title>
-  <rect fill="#fff" id="canvas_background" height="53" width="51" y="-1" x="-1"/>
+  <rect fill="none" id="canvas_background" height="53" width="51" y="-1" x="-1"/>
   <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
    <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
   </g>
  </g>
  <g>
-  <title>Layer 1</title>
-  <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
-  <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
-  <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
-  <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
   <g stroke="null" id="svg_238">
    <g stroke="null" transform="matrix(0.17608775322922013,0,0,0.1917716926450717,-332.2956864572279,-379.6924643192177) " id="svg_235">
-    <title stroke="null" transform="translate(-13.625164985656738,2.753891944885254) translate(-72.25006103515625,-45.144691467285156) translate(129.6868896484375,68.1546859741211) translate(1684.953857421875,0) translate(0,1855.564208984375) ">background</title>
-    <rect stroke="null" x="1727.765521" y="1880.328095" width="582" height="402" id="svg_233" fill="#fff"/>
+    <rect stroke="null" x="1727.765521" y="1880.328095" width="582" height="402" id="svg_233" fill="none"/>
     <g stroke="null" id="svg_232" display="none">
      <rect stroke="null" id="svg_236" width="49" height="51" x="1728.765521" y="1881.328095" stroke-width="0" fill="url(#gridpattern)"/>
     </g>
@@ -30,21 +21,6 @@
        <path stroke="null" d="m6630.347005,5203.579136l-384,0c-23.574,0 -42.667,19.094 -42.667,42.667l0,256c0,23.573 19.093,42.667 42.667,42.667l149.333,0l0,42.667l-42.667,0l0,42.666l170.667,0l0,-42.667l-42.667,0l0,-42.667l149.333,0c23.573,0 42.667,-19.093 42.667,-42.667l0,-255.999c0,-23.573 -19.093,-42.667 -42.666,-42.667zm0,298.667l-384,0l0,-256l384,0l0,256z" id="svg_231" fill="#bf0000"/>
       </g>
      </g>
-     <g stroke="null" id="svg_228" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_227" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_226" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_225" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_224" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_223" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_222" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_221" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_220" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_219" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_218" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_217" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_216" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_215" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_214" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
     </g>
     <text stroke="null" fill="#bf0000" stroke-width="4" x="256.811359" y="180.437551" id="svg_212" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(5.980673403045555,0,0,6.325649983216816,394.15962088258857,1000.8108757227786) " font-weight="bold">off</text>
    </g>

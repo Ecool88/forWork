@@ -1,52 +1,39 @@
 <svg width="49" height="51" xmlns="http://www.w3.org/2000/svg">
- <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
-
- <g>
-  <title>background</title>
-  <rect fill="#fff" id="canvas_background" height="53" width="51" y="-1" x="-1"/>
-  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
-   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
-  </g>
- </g>
- <g>
-  <title>Layer 1</title>
-  <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
-  <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
-  <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
-  <g stroke="null" id="svg_187">
-   <g stroke="null" transform="matrix(0.17427905996620144,0,0,0.19308090183544604,-307.1249313188248,-382.50427681279393) " id="svg_184">
-    <title stroke="null" transform="translate(1.5099798440933228,2.2737367544323206e-13) translate(-3.0357117652893066,0) translate(-16.87242889404297,1.362941026687622) translate(-12.181715965270996,2.725882053375244) translate(0,1.3492178916931152) translate(-5.220735549926758,0) translate(-20.88294219970703,-2.5856211185455322) translate(-13.921960830688477,12.458078384399414) translate(1684.953857421875,0) translate(0,1855.564208984375) ">background</title>
-    <rect stroke="null" x="1613.348342" y="1869.874707" width="582" height="402" id="svg_182" fill="#fff"/>
-    <g stroke="null" id="svg_181" display="none">
-     <rect stroke="null" id="svg_185" width="49" height="51" x="1614.348342" y="1870.874707" stroke-width="0" fill="url(#gridpattern)"/>
+    <g>
+        <rect fill="none" id="canvas_background" height="53" width="51" y="-1" x="-1"/>
+        <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+            <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+        </g>
     </g>
-   </g>
-   <g stroke="null" transform="matrix(0.17427905996620144,0,0,0.19308090183544604,-307.1249313188248,-382.50427681279393) " id="svg_186">
-    <title stroke="null" transform="translate(1.5099798440933228,2.2737367544323206e-13) translate(-3.0357117652893066,0) translate(-16.87242889404297,1.362941026687622) translate(-12.181715965270996,2.725882053375244) translate(0,1.3492178916931152) translate(-5.220735549926758,0) translate(-20.88294219970703,-2.5856211185455322) translate(-13.921960830688477,12.458078384399414) translate(1684.953857421875,0) translate(0,1855.564208984375) ">Layer 1</title>
-    <g stroke="null" id="svg_162">
-     <g stroke="null" id="svg_178" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) ">
-      <g stroke="null" id="svg_179">
-       <path stroke="null" d="m6418.581396,5202.833495l-384,0c-23.574,0 -42.667,19.094 -42.667,42.667l0,256c0,23.573 19.093,42.667 42.667,42.667l149.333,0l0,42.667l-42.667,0l0,42.666l170.667,0l0,-42.667l-42.667,0l0,-42.667l149.333,0c23.573,0 42.667,-19.093 42.667,-42.667l0,-255.999c0,-23.573 -19.093,-42.667 -42.666,-42.667zm0,298.667l-384,0l0,-256l384,0l0,256z" id="svg_180" fill="#00bf00"/>
-      </g>
-     </g>
-     <g stroke="null" id="svg_177" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_176" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_175" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_174" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_173" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_172" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_171" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_170" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_169" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_168" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_167" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_166" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_165" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_164" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
-     <g stroke="null" id="svg_163" transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) "/>
+    <g>
+        <g stroke="null" id="svg_187">
+            <g stroke="null"
+               transform="matrix(0.17427905996620144,0,0,0.19308090183544604,-307.1249313188248,-382.50427681279393) "
+               id="svg_184">
+                <rect stroke="null" x="1613.348342" y="1869.874707" width="582" height="402" id="svg_182" fill="none"/>
+                <g stroke="null" id="svg_181" display="none">
+                    <rect stroke="null" id="svg_185" width="49" height="51" x="1614.348342" y="1870.874707"
+                          stroke-width="0" fill="url(#gridpattern)"/>
+                </g>
+            </g>
+            <g stroke="null"
+               transform="matrix(0.17427905996620144,0,0,0.19308090183544604,-307.1249313188248,-382.50427681279393) "
+               id="svg_186">
+                <g stroke="null" id="svg_162">
+                    <g stroke="null" id="svg_178"
+                       transform="matrix(0.5686342401275548,0,0,0.6080511517034157,-1636.298584085344,-1179.4321224474475) ">
+                        <g stroke="null" id="svg_179">
+                            <path stroke="null"
+                                  d="m6418.581396,5202.833495l-384,0c-23.574,0 -42.667,19.094 -42.667,42.667l0,256c0,23.573 19.093,42.667 42.667,42.667l149.333,0l0,42.667l-42.667,0l0,42.666l170.667,0l0,-42.667l-42.667,0l0,-42.667l149.333,0c23.573,0 42.667,-19.093 42.667,-42.667l0,-255.999c0,-23.573 -19.093,-42.667 -42.666,-42.667zm0,298.667l-384,0l0,-256l384,0l0,256z"
+                                  id="svg_180" fill="#00bf00"/>
+                        </g>
+                    </g>
+                </g>
+                <text stroke="null" fill="#00bf00" stroke-width="4" x="237.680206" y="178.785011" id="svg_161"
+                      font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve"
+                      transform="matrix(5.980673403045555,0,0,6.325649983216816,394.15962088258857,1000.8108757227786) "
+                      font-weight="bold">on</text>
+            </g>
+        </g>
     </g>
-    <text stroke="null" fill="#00bf00" stroke-width="4" x="237.680206" y="178.785011" id="svg_161" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(5.980673403045555,0,0,6.325649983216816,394.15962088258857,1000.8108757227786) " font-weight="bold">on</text>
-   </g>
-  </g>
- </g>
 </svg>
