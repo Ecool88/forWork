@@ -1,3 +1,8 @@
+import gg from './component'
+
+console.log(gg)
+// Vue.component('component', () => import('./component'));
+
 Vue.component('v-select', {
     name: "v-select",
     props: {
@@ -58,6 +63,7 @@ Vue.component('v-select', {
 `
 })
 
+// Vue.component('v-mounted', vMount)
 
 Vue.component('v-card', {
     name: "v-card",
@@ -233,11 +239,33 @@ Vue.component('v-popup', {
 `
 })
 
+Vue.component('v-component', {
+    name: "v-component",
+    data() {
+        return {
+            hello: 'Hello component!'
+        }
+    },
+    mounted() {
+        console.log(this.hello)
+    },
+    template: ` 
+ <div>
+      <h1>{{hello}}</h1>
+</div>
+`
+})
+
+// Vue.component('v-mounted', gg)
+
 
 
 
 const app = new Vue({
     el: '#app',
+    components: {
+        // 'v-mounted': vMount
+    },
     data: {
         categories: [
             {name: 'Все', value: 'all'},
@@ -327,3 +355,5 @@ const app = new Vue({
     }
     }
 });
+
+

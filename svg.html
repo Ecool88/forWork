@@ -1,21 +1,58 @@
-<svg width="49" height="51">
-    <g stroke="null" id="svg_49">
-        <g stroke="null" transform="matrix(0.19803456956515564,0,0,0.21748425559160223,-315.48553560439973,-351.6922629702607) " id="svg_46">
-            <title stroke="null" transform="translate(0,-1.2100088596343994) translate(0,1.2100088596343994) translate(-2.65769624710083,-2.420017719268799) translate(0,-1.2100088596343994) translate(-1.328848123550415,-8.470062255859375) translate(2.2737367544323206e-13,1.1577374935150146) translate(2.65769624710083,1.1577374935150146) translate(-1.328848123550415,3.473212242126465) translate(-10.63078498840332,-13.89284896850586) translate(0.00001926278491737321,0) translate(0.00001926278491737321,0) translate(-0.5315950512886047,0) translate(-2.65769624710083,-1.1577374935150146) translate(-10.63078498840332,-4.630949974060059) translate(2.2737367544323206e-13,-10.998523712158203) translate(-1.328848123550415,0) translate(2.2737367544323206e-13,8.683091163635254) translate(-0.5493553280830383,0) translate(1.328848123550415,9.261899948120117) translate(-5.31539249420166,-2.1893696784973145) translate(1457.2296142578125,0) translate(0,1547.2296142578125) ">background</title>
-            <rect stroke="null" x="1423.256347" y="1524.993774" width="582" height="402" id="svg_44" fill="none"/>
-            <g stroke="null" id="svg_43" display="none">
-                <rect stroke="null" id="svg_47" width="60" height="60" x="1424.256347" y="1525.993774" stroke-width="0" fill="url(#gridpattern)"/>
-            </g>
-        </g>
-        <g stroke="null" transform="matrix(0.19803456956515564,0,0,0.21748425559160223,-315.48553560439973,-351.6922629702607) " id="svg_48">
-            <title stroke="null" transform="translate(0,-1.2100088596343994) translate(0,1.2100088596343994) translate(-2.65769624710083,-2.420017719268799) translate(0,-1.2100088596343994) translate(-1.328848123550415,-8.470062255859375) translate(2.2737367544323206e-13,1.1577374935150146) translate(2.65769624710083,1.1577374935150146) translate(-1.328848123550415,3.473212242126465) translate(-10.63078498840332,-13.89284896850586) translate(0.00001926278491737321,0) translate(0.00001926278491737321,0) translate(-0.5315950512886047,0) translate(-2.65769624710083,-1.1577374935150146) translate(-10.63078498840332,-4.630949974060059) translate(2.2737367544323206e-13,-10.998523712158203) translate(-1.328848123550415,0) translate(2.2737367544323206e-13,8.683091163635254) translate(-0.5493553280830383,0) translate(1.328848123550415,9.261899948120117) translate(-5.31539249420166,-2.1893696784973145) translate(1457.2296142578125,0) translate(0,1547.2296142578125) ">Layer 1</title>
-            <g stroke="null" id="svg_24">
-                <g stroke="null" id="svg_40" transform="matrix(0.48127622011301663,0,0,0.5236762515976953,-1344.4961826883653,-1001.0022896010207) ">
-                    <g stroke="null" id="svg_41">
-                        <path stroke="null" d="m6549.58129,5010.306065l-384,0c-23.574,0 -42.667,19.094 -42.667,42.667l0,256c0,23.573 19.093,42.667 42.667,42.667l149.333,0l0,42.667l-42.667,0l0,42.666l170.667,0l0,-42.667l-42.667,0l0,-42.667l149.333,0c23.573,0 42.667,-19.093 42.667,-42.667l0,-255.999c0,-23.573 -19.093,-42.667 -42.666,-42.667zm0,298.667l-384,0l0,-256l384,0l0,256z" id="svg_42" fill="#999999"/>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <style>
+        .conainer{
+            margin: 100px;
+            width: 50px;
+            height: 50px;
+            vertical-align: center;
+            background-color: green;
+            border-radius: 50%;
+            position: relative;
+            cursor: pointer;
+            transition: all .2s ease-in;
+        }
+        .conainer:hover{
+            background-color: red;
+        }
+        .fa-comment{
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            transition: transform .2s;
+            color: #fff;
+            top: calc(50% - 10px);
+            left: calc(50% - 10px);
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <div class="conainer" data-toggle="tooltip" title="Tooltip on left">
+        <i class="fa fa-comment" aria-hidden="true"></i>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+<!--<script src="vueScript.js" type="module"></script>-->
+<script src="vueScript.js"></script>
+<script src="component.js"></script>
+</body>
+</html>
