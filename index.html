@@ -8,92 +8,72 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Virtual Machine</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.6.19/css/uikit.min.css" integrity="sha512-tqUe/cUIyI7xlLJAcByGP8PnxwR6z2skDfKp8/DSGpkxBKWXTQl/FI6Kdkjtuqz0/V71Xso5OtXoB27wTxw44A==" crossorigin="anonymous" />
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <style>
+        .fa-arrow-right{
+            transition: all .5s linear;
+        }
+        .fa-arrow-right.transform{
+            transform: rotate(90deg);
+        }
+    </style>
 </head>
 <body>
 <div id="app">
-    <v-popup
-            @close-popup="closePopup"
-            v-if="isInfoPopupVisible"
-            :product_data="modalData"
-    >
-    </v-popup>
+    <h2>[[name]]</h2>
 
+    <div class="uk-width-1-2@s uk-card uk-card-default uk-card-hover">
+        <div class="uk-card-header uk-flex">
+            <div class="uk-width-1-6@s">
+                <i class="fa fa-info-circle fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="uk-width-1-auto@s">
+                <h3 class="uk-card-title">Project info</h3>
 
-    <div class="filters">
-    <div class="filters__head">
-        <div class="head__title">
-            <h2 class="title__name">Virtual Machine</h2>
+                <div>
+                    <div class="uk-text-bold">Info</div>
+                    <div class="uk-text-small">Some info</div>
+                </div>
+
+                <div class="uk-margin-small-top">
+                    <div class="uk-text-bold">Project id</div>
+                    <div class="uk-text-small">Some id 483985924</div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-card-footer">
+            <div class="toogle-actions uk-flex"
+                 style="cursor: pointer"
+                 onclick="toggleActions()">
+                <div class="uk-width-1-6@s">
+                    <i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="uk-width-1-auto@s">Show actions button</div>
+            </div>
+            <div class="actions-button" style="display: none">
+                <div class="uk-button-group"></div>
+            </div>
+
         </div>
     </div>
-    <div class="filters__list">
-        <ul class="list__items">
-            <li class="list__item">
-                <div class="item__text">
-                    <div class="text__header">
-                        New VM
-                    </div>
-                    <div class="text__subtext">
-                        Look in
-                    </div>
-                </div>
-            </li>
-            <li class="list__item">
-                <v-select :selected="selected"
-                          :options="categories"
-                          @select="sortByCategories"
-                ></v-select>
-            </li>
-<!--            <li class="list__item">-->
-<!--                <ul class="item__controls">-->
-<!--&lt;!&ndash;                    <li class="control__item">&ndash;&gt;-->
-<!--&lt;!&ndash;                        <i class="fa fa-filter" aria-hidden="true"></i>&ndash;&gt;-->
-<!--&lt;!&ndash;                    </li>&ndash;&gt;-->
-<!--                    <li class="control__item"-->
-<!--                        @click="sortedByName"-->
-<!--                    >-->
-<!--                        <i class="fa fa-exchange"-->
-<!--                           aria-hidden="true"-->
-<!--                           :class="{activeIcon: isSortedName}"-->
-<!--                        ></i>-->
-<!--                    </li>-->
-<!--                    <li class="control__item"-->
-<!--                        @click="clearFilters"-->
-<!--                    >-->
-<!--                        <i class="fa fa-repeat"-->
-<!--                           :class="{activeIcon: isClearFilter}"-->
-<!--                           aria-hidden="true"></i>-->
-<!--                    </li>-->
-<!--                </ul>-->
-<!--            </li>-->
-        </ul>
-    </div>
-</div>
-
-
-
-    <transition-group name="flip-list" tag="div" class="card-list">
-    <v-card
-                    v-for="machine in filteredMachines"
-                    :key="machine.id"
-                    :product_data="machine"
-                    @remove-machine="removeMachine"
-                    @show-details="showDetails"
-        ></v-card>
-    </transition-group>
-
-
-
-
 
 
 
 </div>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
 <script src="vueScript.js"></script>
-<!--<script-->
-<!--        src="https://code.jquery.com/jquery-3.5.1.js"-->
-<!--        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="-->
-<!--        crossorigin="anonymous"></script>-->
+<script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+
+<script>
+    function toggleActions(){
+      $('.actions-button').toggle(500)
+      $('.fa-arrow-right').toggleClass('transform')
+    }
+</script>
 </body>
 </html>
 
