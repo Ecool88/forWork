@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Virtual Machine</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.6.19/css/uikit.min.css" integrity="sha512-tqUe/cUIyI7xlLJAcByGP8PnxwR6z2skDfKp8/DSGpkxBKWXTQl/FI6Kdkjtuqz0/V71Xso5OtXoB27wTxw44A==" crossorigin="anonymous" />
-<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
     <style>
         .fa-arrow-right{
             transition: all .5s linear;
@@ -43,6 +43,8 @@
             </div>
         </div>
         <div class="uk-card-footer">
+
+
             <div class="toogle-actions uk-flex"
                  style="cursor: pointer"
                  onclick="toggleActions()">
@@ -51,8 +53,17 @@
                 </div>
                 <div class="uk-width-1-auto@s">Show actions button</div>
             </div>
+
+
             <div class="actions-button" style="display: none">
-                <div class="uk-button-group"></div>
+                <div class="uk-flex">
+                    <div class="uk-width-1-6@s">
+                        <button type="button" class="btn btn-secondary">on</button>
+                    </div>
+                    <div class="uk-width-1-auto@s">on virtual machine</div>
+
+
+                </div>
             </div>
 
         </div>
