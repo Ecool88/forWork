@@ -15,6 +15,10 @@ Vue.component('v-select', {
         isExpanded: {
             type: Boolean,
             default: false
+        },
+        gg: {
+            type: String,
+            default: 'non'
         }
     },
     data() {
@@ -39,22 +43,7 @@ Vue.component('v-select', {
         document.removeEventListener('click', this.hideSelect)
     },
     template: `  <div class='v-select'>
-    <p
-        class="title"
-        @click="areOptionsVisible = !areOptionsVisible"
-    >{{selected}}</p>
-    <div
-        class="options"
-        v-if="areOptionsVisible || isExpanded"
-    >
-      <p
-          v-for="option in options"
-          :key="option.value"
-          @click="selectOption(option)"
-      >
-        {{option.name}}
-      </p>
-    </div>
+        <h2>[[gg]]</h2>
   </div>
 `
 })
@@ -65,5 +54,10 @@ const app = new Vue({
     delimiters: ['[[', ']]'],
     data: {
         name: 'vm-1',
+        test: [
+            {gg: '321'},
+            {gg: '123'},
+            {g: '123'}
+        ]
     },
 });
