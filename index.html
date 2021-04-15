@@ -73,12 +73,18 @@
 
 
 
-        <div class="uk-card-footer">
+
+
+
+
+
+        <div class="uk-card-footer position-relative">
 
 
             <div class="toogle-actions uk-flex"
                  style="cursor: pointer"
                  onclick="toggleActions()">
+
                 <div class="uk-width-1-6@s">
                     <i class="fa fa-arrow-right fa-2x buttons-billing" aria-hidden="true"></i>
                 </div>
@@ -90,8 +96,8 @@
             </div>
 
 
-            <div class="actions-button-billing" style="display: none">
-                <div class="uk-flex">
+            <div class="actions-button-billing uk-width-1-1@s  uk-card uk-card-default position-absolute" hidden style="left: 0; z-index: 99">
+                <div class="uk-card-body uk-flex">
 
                     <div class="uk-width-1-3@s">
                         <button type="button" class="btn btn-secondary">Download pdf</button>
@@ -102,7 +108,15 @@
             </div>
 
         </div>
+
+
+
+
+
+
+
     </div>
+
 
     <div v-for="name in test">
         <v-select :gg="name.gg">
@@ -111,7 +125,10 @@
     </div>
 
 
+
+
 </div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
 <script src="vueScript.js"></script>
 <script
@@ -122,6 +139,13 @@
 <script>
     function toggleActions(){
       $('.actions-button-billing').toggle(500)
+
+      // if($('.actions-button-billing')[0].style.display == 'none') {
+      //   $('.actions-button-billing')[0].style.display = 'block'
+      // } else{
+      //   $('.actions-button-billing')[0].style.display = 'none'
+      // }
+
       $('.buttons-billing').toggleClass('transform')
     }
 </script>
